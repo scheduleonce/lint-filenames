@@ -22,7 +22,7 @@ export async function validateFilenames(
     });
 
     console.log('Verification starting...');
-    for await (const file of files) {
+    for (const file of files) {
       totalFilesAnalyzed++;
       if (pattern.test(file.name)) {
         console.log(`  ✔️  ${file.fullPath}`);
@@ -33,7 +33,7 @@ export async function validateFilenames(
     }
     console.log('Verification finished.');
     console.log(`ℹ️  Files analyzed: \t${totalFilesAnalyzed}`);
-  } catch (error) {
+  } catch {
     throw new Error('Execution failed, see log above. ❌');
   }
 

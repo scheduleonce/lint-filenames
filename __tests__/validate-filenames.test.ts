@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
+
 import * as nodePath from 'node:path';
 import assert from 'node:assert/strict';
 import { describe, it, beforeEach, mock } from 'node:test';
