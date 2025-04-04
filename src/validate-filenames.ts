@@ -1,6 +1,4 @@
-import { promisify } from 'util';
-import g from 'glob';
-const glob = promisify(g);
+import { glob } from 'glob';
 
 export async function validateFilenames(
   path: string,
