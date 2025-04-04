@@ -1,9 +1,9 @@
 # Lint Filenames action
 
 <p align="center">
-  <a href="https://github.com/batista/lint-filenames/actions?query=workflow%3Abuild-test"><img alt="build-test action status" src="https://github.com/batista/lint-filenames/workflows/build-test/badge.svg"></a>
-  <a href="https://github.com/batista/lint-filenames/actions?query=workflow%3ACodeQL"><img alt="code-ql status" src="https://github.com/batista/lint-filenames/workflows/CodeQL/badge.svg"></a>
-  <a href="https://github.com/batista/lint-filenames/blob/main/LICENSE"><img alt="license MIT" src="https://img.shields.io/github/license/batista/lint-filenames"></a>
+  <a href="https://github.com/scheduleonce/lint-filenames/actions?query=workflow%3Abuild-test"><img alt="build-test action status" src="https://github.com/scheduleonce/lint-filenames/workflows/build-test/badge.svg"></a>
+  <a href="https://github.com/scheduleonce/lint-filenames/actions?query=workflow%3ACodeQL"><img alt="code-ql status" src="https://github.com/scheduleonce/lint-filenames/workflows/CodeQL/badge.svg"></a>
+  <a href="https://github.com/scheduleonce/lint-filenames/blob/main/LICENSE"><img alt="license MIT" src="https://img.shields.io/github/license/scheduleonce/lint-filenames"></a>
 </p>
 
 **Lint Filenames** is an simple github action to help you ensure certain patterns
@@ -38,7 +38,7 @@ The number of files analyzed.
 to ensure all files match the pattern `/^.+\..+$/` in the `my-files` directory, use the following:
 
 ```yml
-uses: batista/lint-filenames@v1
+uses: scheduleonce/lint-filenames@v1
 name: Validating my-folder filenames
 with:
   path: './my-folder'
@@ -112,7 +112,7 @@ with:
   pattern: "\\.json$"
 ```
 
-See the [actions tab](https://github.com/batista/lint-filenames/actions) for runs of this action! :rocket:
+See the [actions tab](https://github.com/scheduleonce/lint-filenames/actions) for runs of this action! :rocket:
 
 ## Usage:
 
